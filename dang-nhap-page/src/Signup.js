@@ -34,7 +34,12 @@ export default function Signup(){
                     <div id="PersonalInfo" className="flex flex-col items-start justify-start gap-8 font-normal text-gray-900 w-fit h-fit"
                     style={{font: 'Poppins', fontSize: '16px'}}>
                         <div id="Gender" className="flex flex-col items-start justify-start gap-3">
-                            <label>What's your gender? <span>(optional)</span></label>
+                            <label className="font-normal text-gray-900" 
+                            style={{font: 'Poppins', fontSize:'16px'}}
+                            >What's your gender? <span className="text-gray-500">(optional)</span></label>
+                            <div className="flex flex-row items-start justify-start w-fit h-fit gap-8">
+                                <
+                            </div>
                         </div>
                     </div>
                 </div>
